@@ -18,7 +18,7 @@ toSend = input("Enter the email you would like to send result file to: ")
 msg = MIMEMultipart()
 #setting up the context of the email
 msg['Subject'] = 'The result.wav file'
-msg['From'] = 'julilanalbert99@gmail.com'
+msg['From'] = username
 msg['To'] = toSend
 msg.preamble = 'Testing the email'
 #the sound file that we will be sending
